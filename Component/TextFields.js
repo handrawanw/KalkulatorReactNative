@@ -12,7 +12,7 @@ export default function TextFields(){
 
   return (
     <Appbar style={TextFieldStylesheet.AppBar}>
-     <Appbar.Content style={TextFieldStylesheet.ContentAppBar} title={value.length>16?"Jumlah angka melebihi batas":value} />
+     <Appbar.Content style={TextFieldStylesheet.ContentAppBar} title={value} />
     </Appbar>
   );
 }
