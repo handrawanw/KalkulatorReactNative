@@ -7,8 +7,8 @@ export function reducer(state=STORE_REDUX,action){
     case 'HAPUS_ALL_VALUE':
       return {...state,value:''};
     case 'TOTAL_ALL_VALUE':
-      if(state.value.length>20){
-        return {...state,value:'ANGKA MELEBIHI BATAS'};
+      if(state.value==="ANGKA MELEBIHI BATAS"){
+        return {...state,value:"ANGKA MELEBIHI BATAS"};
       }else{
         "use strict";
         try{
