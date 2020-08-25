@@ -40,7 +40,7 @@ export default function MainBoard(){
             <ButtonBoard Teks="/" Func={()=>dispatch(INPUT_VALUE('/'))} />
             <ButtonBoard Teks="+" Func={()=>dispatch(INPUT_VALUE('+'))} />
             <ButtonBoard Teks="-" Func={()=>dispatch(INPUT_VALUE('-'))} />
-            <ButtonBoard Teks="x" Func={()=>dispatch(INPUT_VALUE('*'))} />
+            <ButtonBoard Teks="x" Func={()=>dispatch(INPUT_VALUE('x'))} />
             <ButtonBoard Teks="=" Func={()=>dispatch(TOTAL_VALUE())} />
           </View>
     </View>

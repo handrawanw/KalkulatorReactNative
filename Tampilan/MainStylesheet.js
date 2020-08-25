@@ -4,6 +4,7 @@ let {width,height}=Dimensions.get("window");
 
 export let MainStylesheet=StyleSheet.create({
   Main:{
+    flex:1,
     flexDirection:'column',
     justifyContent:'flex-start',
     alignItems:'flex-start',
